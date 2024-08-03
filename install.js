@@ -5,7 +5,7 @@ module.exports = {
       method: "shell.run",
       params: {
         message: [
-          "git clone https://github.com/SillyTavern/SillyTavern app",
+          "git clone -b staging https://github.com/SillyTavern/SillyTavern app",
         ]
       }
     },
